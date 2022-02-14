@@ -1,0 +1,61 @@
+Altium Designer Pick and Place Locations
+Z:\Documents\Balena\TestBot\TestBot v2\SD Adapter Sub-Board\Source files\../Fabrication Outputs\B.04\Pick Place\Pick Place for RES-001 AutoHAT V2 SD Adapter Sub-Board - PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/12/19
+Time:       19:37
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"D2","CUS08F30,H3F","BottomLayer","USC","3.6912","18.2500","360","Schottky Diode"
+"D1","CUS08F30,H3F","BottomLayer","USC","3.6912","16.5000","360","Schottky Diode"
+"C1","18pF","BottomLayer","0603C_-_HD","20.7750","2.2750","315","18pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+"C2","18pF","BottomLayer","0603C_-_HD","24.3250","5.5750","135","18pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+"C3","100nF","BottomLayer","0402","29.5402","16.2052","180","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C4","1µF","BottomLayer","0603C_-_HD","1.7172","13.4186","315","1µF 10V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)"
+"C5","100nF","BottomLayer","0402","3.0000","14.1250","315","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C6","100nF","BottomLayer","0402","11.6250","11.2000","315","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C7","1µF","BottomLayer","0603C_-_HD","9.8668","8.8584","45","1µF 10V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)"
+"C8","100nF","BottomLayer","0402","14.6172","6.7078","315","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C9","100nF","BottomLayer","0402","24.8695","9.9399","225","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C10","100nF","BottomLayer","0402","17.6000","3.5500","45","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C11","4.7µF","BottomLayer","0603C_-_HD","14.9500","3.5750","360","4.7µF 10V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)"
+"C12","100nF","BottomLayer","0402","23.5712","17.2974","360","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C13","100nF","BottomLayer","0402","19.0500","2.3000","135","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C14","1µF","BottomLayer","0603C_-_HD","17.5260","1.3796","360","1µF 10V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)"
+"C15","100nF","BottomLayer","0402","12.3444","8.2630","45","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C16","100nF","BottomLayer","0402","12.0904","12.4794","315","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C17","100nF","BottomLayer","0402","19.8120","16.0782","225","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C18","100nF","BottomLayer","0402","20.5232","15.3670","225","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C19","100nF","BottomLayer","0402","23.1902","12.7000","225","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"C20","4.7µF","BottomLayer","0603C_-_HD","12.9286","13.2922","315","4.7µF 10V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063" L x 0.031" W (1.60mm x 0.80mm)"
+"C21","100nF","BottomLayer","0402","8.4948","6.8014","45","0.10µF 16V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039" L x 0.020" W (1.00mm x 0.50mm)"
+"FB1","300mA","BottomLayer","0603L_-_HD","30.9626","3.4036","180","470 Ohm 1 Ferrite Bead 0603 (1608 Metric) 300mA 350 mOhm Max DCR"
+"FB2","2A 0.05 DCR","BottomLayer","0603L_-_HD","12.7254","2.9210","90","Inductor"
+"J1","WE-Communication Connectors 62900416021","TopLayer","62900416021","24.9699","10.0000","90","WR-COM USB SMT Type A"
+"P1","15-91-0080","BottomLayer","15-91-0080","31.0250","10.0000","270","Header, 4-Pin, Dual row"
+"P3","Wurth MicroSD","TopLayer","693071010811","12.1000","9.9500","90",""
+"R1","1M","BottomLayer","0603R_-_HD","23.8250","2.1250","45","RES SMD 1M OHM 5% 1/10W 0603"
+"R2","825R","BottomLayer","0603R_-_HD","33.4491","18.0654","270","825 Ohm ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R3","39.2k","BottomLayer","0603R_-_HD","32.1927","18.0654","270","39.2k Ohm ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R4","61.9k","BottomLayer","0603R_-_HD","30.9324","18.0654","90","39.2k Ohm ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R5","12k","BottomLayer","0603R_-_HD","14.9500","2.2500","360","12k Ohm ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R6","10k","BottomLayer","0603R_-_HD","3.0988","5.4690","180","RES SMD 10K OHM 5% 1/10W 0603"
+"R7","10k","BottomLayer","0603R_-_HD","28.1178","18.7706","180","RES SMD 10K OHM 5% 1/10W 0603"
+"R8","2k","BottomLayer","0603R_-_HD","6.6294","17.7038","270","RES SMD 2K OHM 5% 1/10W 0603"
+"R9","2k","BottomLayer","0603R_-_HD","6.8580","15.2654","180","RES SMD 2K OHM 5% 1/10W 0603"
+"R10","10k","BottomLayer","0603R_-_HD","23.5712","15.9258","360","RES SMD 10K OHM 5% 1/10W 0603"
+"R11","10k","BottomLayer","0603R_-_HD","13.7922","4.9610","180","RES SMD 10K OHM 5% 1/10W 0603"
+"R12","10k","BottomLayer","0603R_-_HD","10.7050","8.0710","45","RES SMD 10K OHM 5% 1/10W 0603"
+"R13","0R","BottomLayer","0603R_-_HD","33.4010","16.1036","180","RES SMD 0 OHM JUMPER"
+"U2","USB2642-I/ML","BottomLayer","QFN48","18.0000","10.0000","45","IC FLASH MEDIA CTLR USB2 48VQFN"
+"U3","FT24C04A-ULR-T","BottomLayer","SOT-23-5","9.3589","4.5456","45","EEPROM Memory IC 4Kb (512 x 8) I²C 550ns SOT-23-5"
+"Y1","24MHz","BottomLayer","XTAL_-_2_x_1.6","22.4750","3.9000","45","24MHz ±20ppm Crystal 6pF 150 Ohm -30°C ~ 85°C Surface Mount 4-SMD, No Lead"
+"D3","","TopLayer","0603LED_-_HD","17.5500","1.5000","0","Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+"R14","470R","TopLayer","0603R_-_HD","21.7500","1.5010","360","RES SMD 470 OHM 5% 1/10W 0603"
+"R15","10k","BottomLayer","1608[0603]","9.5750","1.3750","180","RES SMD 10K OHM 5% 1/10W 0603"
+"U1","TS3A27518ERTWR","BottomLayer","QFN-24","5.2180","10.0000","315","IC MUX/DEMUX 6X1 24WQFN"

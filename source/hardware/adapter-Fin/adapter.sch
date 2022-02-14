@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0103
+U 1 1 5EEAD474
+P 4850 3400
+F 0 "#PWR0103" H 4850 3150 50  0001 C CNN
+F 1 "GND" H 4855 3227 50  0000 C CNN
+F 2 "" H 4850 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3300 4850 3300
+Wire Wire Line
+	4850 3300 4850 3400
+$Comp
+L power:VCC #PWR0104
+U 1 1 5EEAE1EF
+P 4850 2950
+F 0 "#PWR0104" H 4850 2800 50  0001 C CNN
+F 1 "VCC" H 4867 3123 50  0000 C CNN
+F 2 "" H 4850 2950 50  0001 C CNN
+F 3 "" H 4850 2950 50  0001 C CNN
+	1    4850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3100 4850 3100
+Wire Wire Line
+	4850 3100 4850 2950
+$Comp
+L power:GND #PWR0101
+U 1 1 5EEAA46E
+P 7000 3900
+F 0 "#PWR0101" H 7000 3650 50  0001 C CNN
+F 1 "GND" H 7005 3727 50  0000 C CNN
+F 2 "" H 7000 3900 50  0001 C CNN
+F 3 "" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5EEAA474
+P 7000 2550
+F 0 "#PWR0106" H 7000 2400 50  0001 C CNN
+F 1 "VCC" H 7017 2723 50  0000 C CNN
+F 2 "" H 7000 2550 50  0001 C CNN
+F 3 "" H 7000 2550 50  0001 C CNN
+	1    7000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Phoenix_IMC_1862577 J3
+U 1 1 5EEAA47A
+P 6600 3150
+F 0 "J3" H 6954 3278 50  0000 L CNN
+F 1 "Phoenix_IMC_1862577" H 6600 2900 50  0000 L CNN
+F 2 "Connector:PhoenixContact_IMCV_1777710" H 7250 3250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/1862577.pdf" H 7250 3150 50  0001 L CNN
+	1    6600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3150 6600 2850
+Wire Wire Line
+	6600 2850 7000 2850
+Wire Wire Line
+	7000 2550 7000 2850
+Wire Wire Line
+	7000 2850 7400 2850
+Wire Wire Line
+	7400 2850 7400 3150
+Connection ~ 7000 2850
+Wire Wire Line
+	6600 3250 6600 3550
+Wire Wire Line
+	6600 3550 7000 3550
+Wire Wire Line
+	7000 3550 7000 3900
+Wire Wire Line
+	7000 3550 7400 3550
+Wire Wire Line
+	7400 3550 7400 3250
+Connection ~ 7000 3550
+Connection ~ 6000 3550
+Wire Wire Line
+	6400 3550 6400 3250
+Wire Wire Line
+	6000 3550 6400 3550
+Wire Wire Line
+	6000 3550 6000 3900
+Wire Wire Line
+	5600 3550 6000 3550
+Wire Wire Line
+	5600 3250 5600 3550
+Connection ~ 6000 2850
+Wire Wire Line
+	6400 2850 6400 3150
+Wire Wire Line
+	6000 2850 6400 2850
+Wire Wire Line
+	6000 2550 6000 2850
+Wire Wire Line
+	5600 2850 6000 2850
+Wire Wire Line
+	5600 3150 5600 2850
+$Comp
+L Connector:Phoenix_IMC_1862577 J2
+U 1 1 5EEC77C2
+P 5600 3150
+F 0 "J2" H 5954 3278 50  0000 L CNN
+F 1 "Phoenix_IMC_1862577" H 5600 2900 50  0000 L CNN
+F 2 "Connector:PhoenixContact_IMCV_1777710" H 6250 3250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/1862577.pdf" H 6250 3150 50  0001 L CNN
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5EEAEA64
+P 6000 2550
+F 0 "#PWR0105" H 6000 2400 50  0001 C CNN
+F 1 "VCC" H 6017 2723 50  0000 C CNN
+F 2 "" H 6000 2550 50  0001 C CNN
+F 3 "" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EEACEA7
+P 6000 3900
+F 0 "#PWR0102" H 6000 3650 50  0001 C CNN
+F 1 "GND" H 6005 3727 50  0000 C CNN
+F 2 "" H 6000 3900 50  0001 C CNN
+F 3 "" H 6000 3900 50  0001 C CNN
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5EEB7694
+P 4500 3200
+F 0 "J1" H 4557 3517 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 4557 3426 50  0000 C CNN
+F 2 "Connector_BarrelJack:Wurth_694108402002" H 4550 3160 50  0001 C CNN
+F 3 "~" H 4550 3160 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3200 4850 3200
+Wire Wire Line
+	4850 3200 4850 3300
+Connection ~ 4850 3300
+$EndSCHEMATC

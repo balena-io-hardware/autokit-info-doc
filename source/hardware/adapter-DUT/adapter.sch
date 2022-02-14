@@ -1,0 +1,165 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5EEAC747
+P 4150 4400
+F 0 "#PWR0101" H 4150 4150 50  0001 C CNN
+F 1 "GND" H 4155 4227 50  0000 C CNN
+F 2 "" H 4150 4400 50  0001 C CNN
+F 3 "" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EEACEA7
+P 6000 3900
+F 0 "#PWR0102" H 6000 3650 50  0001 C CNN
+F 1 "GND" H 6005 3727 50  0000 C CNN
+F 2 "" H 6000 3900 50  0001 C CNN
+F 3 "" H 6000 3900 50  0001 C CNN
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EEAD474
+P 4550 2900
+F 0 "#PWR0103" H 4550 2650 50  0001 C CNN
+F 1 "GND" H 4555 2727 50  0000 C CNN
+F 2 "" H 4550 2900 50  0001 C CNN
+F 3 "" H 4550 2900 50  0001 C CNN
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4400 4200 4200
+Wire Wire Line
+	4500 2800 4550 2800
+Wire Wire Line
+	4550 2800 4550 2900
+$Comp
+L power:VCC #PWR0104
+U 1 1 5EEAE1EF
+P 4550 2450
+F 0 "#PWR0104" H 4550 2300 50  0001 C CNN
+F 1 "VCC" H 4567 2623 50  0000 C CNN
+F 2 "" H 4550 2450 50  0001 C CNN
+F 3 "" H 4550 2450 50  0001 C CNN
+	1    4550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5EEAEA64
+P 6000 2550
+F 0 "#PWR0105" H 6000 2400 50  0001 C CNN
+F 1 "VCC" H 6017 2723 50  0000 C CNN
+F 2 "" H 6000 2550 50  0001 C CNN
+F 3 "" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5EEAF034
+P 4550 3500
+F 0 "#PWR0106" H 4550 3350 50  0001 C CNN
+F 1 "VCC" H 4567 3673 50  0000 C CNN
+F 2 "" H 4550 3500 50  0001 C CNN
+F 3 "" H 4550 3500 50  0001 C CNN
+	1    4550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3600 4550 3600
+Wire Wire Line
+	4550 3600 4550 3500
+Wire Wire Line
+	4500 2600 4550 2600
+Wire Wire Line
+	4550 2600 4550 2450
+$Comp
+L Connector:Phoenix_IMC_1862577 J3
+U 1 1 5EEC77C2
+P 5600 3150
+F 0 "J3" H 5954 3278 50  0000 L CNN
+F 1 "Phoenix_IMC_1862577" H 5600 2900 50  0000 L CNN
+F 2 "Connector:PhoenixContact_IMC_1862577" H 6250 3250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/1862577.pdf" H 6250 3150 50  0001 L CNN
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3150 5600 2850
+Wire Wire Line
+	5600 2850 6000 2850
+Wire Wire Line
+	6000 2550 6000 2850
+Wire Wire Line
+	6000 2850 6400 2850
+Wire Wire Line
+	6400 2850 6400 3150
+Connection ~ 6000 2850
+Wire Wire Line
+	5600 3250 5600 3550
+Wire Wire Line
+	5600 3550 6000 3550
+Wire Wire Line
+	6000 3550 6000 3900
+Wire Wire Line
+	6000 3550 6400 3550
+Wire Wire Line
+	6400 3550 6400 3250
+Connection ~ 6000 3550
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5EEBA648
+P 4200 2700
+F 0 "J1" H 4257 3017 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 4257 2926 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 4250 2660 50  0001 C CNN
+F 3 "~" H 4250 2660 50  0001 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2700 4550 2700
+Wire Wire Line
+	4550 2700 4550 2800
+Connection ~ 4550 2800
+NoConn ~ 4500 3800
+NoConn ~ 4500 3900
+$Comp
+L Connector:USB_A J2
+U 1 1 5EEB6608
+P 4200 3800
+F 0 "J2" H 4257 4267 50  0000 C CNN
+F 1 "USB_A" H 4257 4176 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 4350 3750 50  0001 C CNN
+F 3 " ~" H 4350 3750 50  0001 C CNN
+	1    4200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4200 4100 4400
+Wire Wire Line
+	4100 4400 4150 4400
+Wire Wire Line
+	4200 4400 4150 4400
+Connection ~ 4150 4400
+$EndSCHEMATC
