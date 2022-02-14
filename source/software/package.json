@@ -1,0 +1,62 @@
+{
+  "name": "@balena/testbot",
+  "version": "1.9.2",
+  "description": "Testbot SDK",
+  "main": "build/lib/index.js",
+  "types": "build/lib/index.d.ts",
+  "author": "balena",
+  "license": "Apache-2.0",
+  "files": [
+    "README.md",
+    "build/lib/",
+    "scripts"
+  ],
+  "scripts": {
+    "prettify": "balena-lint --typescript --fix lib/ test/",
+    "lint": "balena-lint --typescript lib/ test/ && tsc --noEmit",
+    "test": "npm run lint",
+    "clean": "rimraf build",
+    "docs": "rimraf docs/ && npx typedoc lib/ --readme README.md --excludePrivate --excludeProtected --includeVersion --exclude 'lib/base.ts' --excludeExternals",
+    "build": "npm run test && npm run docs && tsc",
+    "prepack": "npm run build && npm run uhubctl",
+    "postinstall": "npm run uhubctl",
+    "uhubctl": "node scripts/install-binary.js"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "bin-build": "^3.0.0",
+    "bluebird": "^3.7.2",
+    "bluebird-retry": "^0.11.0",
+    "decompress": "^4.2.1",
+    "download": "^8.0.0",
+    "etcher-sdk": "^2.0.16",
+    "firmata": "^2.2.0",
+    "lodash": "^4.17.15",
+    "mz": "^2.7.0",
+    "path": "^0.12.7",
+    "serialport": "^9.0.0",
+    "tempfile": "^3.0.0"
+  },
+  "devDependencies": {
+    "@balena/lint": "^5.0.4",
+    "@types/bluebird": "^3.5.29",
+    "@types/bluebird-retry": "^0.11.4",
+    "@types/firmata": "^0.19.2",
+    "@types/follow-redirects": "^1.13.0",
+    "@types/jest": "^25.2.1",
+    "@types/lodash": "^4.14.149",
+    "@types/mz": "^2.7.0",
+    "@types/serialport": "^8.0.1",
+    "balena-sdk": "^15.12.1",
+    "follow-redirects": "^1.13.0",
+    "jest": "^25.4.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "typedoc": "^0.19.2",
+    "typescript": "^3.8.3"
+  },
+  "versionist": {
+    "publishedAt": "2021-10-20T09:11:37.299Z"
+  }
+}

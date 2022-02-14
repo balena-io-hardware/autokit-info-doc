@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ],
+    "module": "commonjs",
+    "target": "es2019",
+    "outDir": "build",
+    "strict": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "pretty": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "lib", "test"
+  ],  
+  "typedocOptions": {
+    "inputFiles": ["./lib"],
+    "mode": "modules",
+    "out": "docs"
+  }
+}
