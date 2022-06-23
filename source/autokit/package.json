@@ -1,0 +1,28 @@
+{
+  "name": "autokit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ss",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npm install && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "bluebird-retry": "^0.11.0",
+    "dbus-next": "^0.10.2",
+    "etcher-sdk": "^7.2.0",
+    "lshw": "^1.6.1",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.36",
+    "@types/bluebird-retry": "^0.11.5",
+    "@types/mz": "^2.7.4"
+  }
+}
