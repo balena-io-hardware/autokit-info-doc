@@ -1,0 +1,54 @@
+- commits:
+    - subject: convert to flowzone
+      hash: 5a0609d0f120190ade864c053c2b535899aee11f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Cooke <ryan@balena.io>
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      author: rcooke-warwick
+      nested: []
+  version: 0.0.4
+  title: ""
+  date: 2022-10-28T11:40:45.884Z
+- version: 0.0.3
+  date: 2022-08-23T11:43:41Z
+  commits:
+    - hash: 34dd081daf2bb39ff99a6642789f629a4c3c914f
+      author: rcooke-warwick
+      footers:
+        change-type: patch
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      subject: fix typos and add sw and enclosure info
+      body: null
+- version: 0.0.2
+- date: 2022-06-21T09:37:02Z
+- commits:
+    - hash: 5dba59a618ee4d690b8dba1b7d9f326f0e4b4abb
+- commits:
+    - author: rcooke-warwick
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+- commits:
+    - subject: initially fill in readme
+- commits:
+    - body: null
+- commits:
+    - hash: 92a0a8cbbbcc4968526106f990b25f2dcb99b979
+- commits:
+    - author: rcooke-warwick
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+- commits:
+    - subject: add testing file
+- commits:
+    - body: null
