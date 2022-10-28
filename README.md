@@ -69,3 +69,7 @@ The first set of capabilities of the kit are as follows. These are based off of 
 3. Add that device to the [supported devices list](https://github.com/balena-io-hardware/autokit-assembly)
 4. Add the software interface following the instructions [here](https://github.com/balena-io-hardware/autokit-sw)
 5. Update the capabilities list above
+
+
+
+###TEST PR
