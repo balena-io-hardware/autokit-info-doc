@@ -15,7 +15,7 @@ Based on these goals, the architecture should keep the following mantras in mind
 - features should be decoupled from eachother where possible
 - we want standardisation of the hardware - but at the same time, hardware should be easily replaced or substituted
 
-![block-diagram](documentation/images/arch.jpg?raw=true)
+![block-diagram](./docs/images/arch.jpg?raw=true)
 
 ### Hardware
 
