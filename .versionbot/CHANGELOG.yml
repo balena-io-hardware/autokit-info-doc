@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add flowzone website build
+      hash: 8ae4ecb90243f107e5bc1fc85660b6cbbf708280
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 0.0.5
+  date: 2022-11-21T16:07:09.661Z
+- commits:
     - subject: convert to flowzone
       hash: 5a0609d0f120190ade864c053c2b535899aee11f
       body: ""
@@ -37,7 +48,7 @@
 - commits:
     - subject: initially fill in readme
 - commits:
-    - body: null
+    - ? body
 - commits:
     - hash: 92a0a8cbbbcc4968526106f990b25f2dcb99b979
 - commits:
@@ -51,4 +62,4 @@
 - commits:
     - subject: add testing file
 - commits:
-    - body: null
+    - ? body
