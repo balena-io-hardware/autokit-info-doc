@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add logo and proofread README
+      hash: c66c0318598b6c8cf2f1140f5a43ace188e170df
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Pedro Henrique Kopper <pedro.kopper@balena.io>
+        signed-off-by: Pedro Henrique Kopper <pedro.kopper@balena.io>
+      author: Pedro Henrique Kopper
+      nested: []
+  version: 0.0.5
+  title: ""
+  date: 2023-01-31T20:31:48.034Z
+- commits:
     - subject: convert to flowzone
       hash: 5a0609d0f120190ade864c053c2b535899aee11f
       body: ""
